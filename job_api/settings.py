@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'companyjobs',
 ]
 
+SITE_ID = 1
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
