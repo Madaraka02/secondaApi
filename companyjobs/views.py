@@ -23,3 +23,6 @@ class JobViewSet(viewsets.ModelViewSet):
         serializer.is_valid(raise_exception=True) # check all fields is valid before attempting to save
         serializer.save(company=request.user)
         return Response(serializer.data)
+
+
+        

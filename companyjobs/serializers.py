@@ -12,3 +12,9 @@ class  JobSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Jobs()
         fields = '__all__'
+
+
+# class CompanySerializer(serializers.Modelserializer):
+#     class Meta:
+#         model = Company
+#         fields = '__all__'
